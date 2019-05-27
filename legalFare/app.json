@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/divorce/divorce"
+  ],
+
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"#fff",
+    "navigationBarTitleText":"诉讼费计算器",
+    "navigationBarTextStyle":"black"
+  },
+
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "财产",
+      "iconPath": "images/icons/weekly.png",
+      "selectedIconPath": "images/icons/weekly-selected.png"
+    },
+    {
+      "pagePath": "pages/divorce/divorce",
+      "text": "离婚",
+      "iconPath": "images/icons/about.png",
+      "selectedIconPath": "images/icons/about-selected.png"
+    }
+    ]
+  }
+}

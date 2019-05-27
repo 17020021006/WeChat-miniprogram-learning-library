@@ -1,0 +1,29 @@
+<view class='page'>
+  <view class='body'>
+
+    <text>财产的金额（单位元）：</text>
+
+<!-- 绑定函数 -->
+    <form bindsubmit='formSubmit' bindreset='formReset'>
+      <view class='input' >
+        <input name="input" placeholder='标的金额' type='number' />
+      </view>
+      <text>\n</text>
+      <view>
+      <!-- form-type 有效值submit，reset用于form组件，单机会分别处罚submit和reset事件 -->
+        <button form-type='submit' type='primary'>计算</button>   
+        <text>\n</text>
+        <button form-type='reset'>重置</button>
+      </view>
+    </form>
+
+  </view>
+
+  <view class='body'>
+    <text>\n诉讼费是{{fei}},减半收取为{{fei2}}元</text>
+  </view>
+
+  <view class='foot'>
+    <text>\n制作人：DMR</text>
+  </view>
+</view> 
