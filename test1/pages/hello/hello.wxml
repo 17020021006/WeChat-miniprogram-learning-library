@@ -1,0 +1,35 @@
+ <!-- 相当于div -->
+<view> 
+这是一个相当于div的区域
+<!-- 这里使用变量 -->
+  <text bindtap='click'>{{helloworld}}</text>   
+  <text>这是一段text</text>
+  <progress>进度条</progress>
+  <button>这是一个按钮</button>
+  <checkbox  >这是多项选择器</checkbox>
+  这是一个输入框
+  <input></input>
+  <label>这是标签</label>
+  <picker>这是选择器</picker>
+  <picker-view>这是滚动选择器</picker-view>
+  <radio>这是按钮</radio>
+  <slider>这是滑动选择器</slider>
+  <switch>这是开关选择器</switch>
+  这是多行输出框
+  <textarea></textarea>
+  <navigator>这是页面跳转</navigator>
+  <audio>这是声音</audio>
+  <image>这是图片</image>
+  <video>这是视频</video>
+  <map>这是地图</map>
+  <canvas>这是画布</canvas>
+  <contact-button>这是客服对话</contact-button>
+</view>  
+
+<scroll-view>
+看这是一个可滚动视图区域
+</scroll-view>
+
+<swiper>
+这是一个滑动视图区域
+</swiper>

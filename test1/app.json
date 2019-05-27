@@ -1,0 +1,31 @@
+{
+  "pages": [
+      
+      "pages/weekly/weekly",  
+      "pages/hello/hello"  
+  ],
+  "tabBar": {
+    "list": [{
+      
+      "text": "实验程序hello",
+      "pagePath": "pages/hello/hello",
+      "iconPath": "images/icons/weekly.png",
+      "selectedIconPath": "images/icons/weekly-selected.png"
+    },
+    {
+      
+      "text": "每周",
+      "pagePath": "pages/weekly/weekly",
+      "iconPath": "images/icons/about.png",
+      "selectedIconPath": "images/icons/about-selected.png"
+    }],
+        "color": "#000",
+        "selectedColor": "#00f"
+      },
+      "window": {
+        "navigationBarBackgroundColor": "#fff",
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "实验小程序"
+      }
+ 
+}

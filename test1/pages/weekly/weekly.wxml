@@ -1,0 +1,13 @@
+<!--pages/weekly/weekly.wxml-->
+
+<view class='body'>
+  <view class='flex-row'>
+    <view bindtap='c' class='{{btnc}}'>c</view>
+    <view bindtap='d' class='{{btnd}}'>d</view>
+    <view bindtap='e' class='{{btne}}'>e</view>
+    <view bindtap='f' class='{{btnf}}'>f</view>
+  </view>
+  <view>
+    <image mode='scaleToFill' src='{{src}}'></image>
+  </view>
+</view>

@@ -1,0 +1,32 @@
+/* pages/weekly/weekly.wxss */
+.body{
+  margin: 0rpx 10rpx 25rpx 25rpx;
+}
+.flex-row{
+  display: flex;
+  flex-direction: row;
+  
+}
+.inactive{
+
+  padding: 9.6rpx 16rpx;
+  background-image: linear-gradient(#ddd,#bbb);
+  border: 2rpx solid rgba(0, 0, 0, 2);
+  border-radius: 9.6rpx;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100rpx;
+}
+.active{
+  
+  padding: 9.6rpx 16rpx;
+  background-image: linear-gradient(#ddd,#bbb);
+  background:wheat;
+  border: 2rpx solid rgba(0, 0, 0, 2);
+  border-radius: 9.6rpx;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  width: 100rpx;
+}
