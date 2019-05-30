@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/map/map",
+    "pages/person/person",
+    "pages/case/case"
+      ],
+   "window": {
+    "navigationBarTitleText": "微网"
+    
+  }   
+}

@@ -1,0 +1,21 @@
+<view class="page">
+        <view class="banner">
+            <swiper indicator-dots="ture"  autoplay="true" interval="5000" duration="1000">
+            <block wx:for="{{imgUrls}}">
+                <swiper-item>
+                <image src="{{item}}" class="pic"/>
+                </swiper-item>
+            </block>
+            </swiper>
+        </view>
+<view class="body"><text>
+车主向交警队赔偿无名氏死亡赔偿金后，保险索赔遭拒，经向法院起诉，成功获赔。
+</text>
+
+<video src="http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" controls='true' danmu-list='{{danmuList}}' 
+danmu-btn='true' enable-danmu='true' autoplay='true' objectFit='contain'> </video>
+
+
+</view>
+
+    </view>
